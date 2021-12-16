@@ -1,0 +1,8 @@
+print('\033[91;107m=\033[m' * 33)
+print('\033[30;107m Calculadora de aluguel veicular \033[m')
+print('\033[91;107m=\033[m' * 33)
+a = float(input('Insira o valor da diária do aluguel: R$'))
+b = float(input('Insira o valor da kilometragem: R$'))
+c = int(input('Insira a quantidade de diárias: '))
+d = float(input('Insira a kilometragem (somente números):'))
+print(f'O valor do seu aluguel é R${(a*c) + (d*b):.2f}.')

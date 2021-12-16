@@ -1,0 +1,11 @@
+from random import choice
+print('\033[93m~\033[m' * 23)
+print('Sorteador de Auxiliares')
+print('\033[93m~\033[m' * 23)
+a = (input('Digite o nome de um aluno: '))
+b = (input('Digite o nome de outro aluno: '))
+c = (input('Outro nome: '))
+d = (input('E mais um: '))
+e = choice([a, b, c, d])
+print()
+print(f'A pessoa escolhida como ajudante foi \033[93m{e}\033[m!')
